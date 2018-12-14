@@ -1,0 +1,336 @@
+body{
+    /* background: gray; */
+    font-family: 'Montserrat';
+}
+a:hover{
+    text-decoration: none;
+}
+.form-control:focus{
+    border: none;
+}
+.navbar-nav li:not(:last-child){
+    margin: 0px 10px;
+}
+li.nav-item a.nav-link{
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    color: #1D262C;
+}
+li.nav-item a.nav-link:hover:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 3px;
+    border-bottom: 2px solid #0074E4;
+}
+a.gt-start{
+    padding: 8px 20px;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    background: #0074E4;
+    border-radius: 4px;
+}
+.navbar>.container-fluid{
+    margin: 0% 5%;
+}
+.mg-25{
+    margin: 10% 15%;
+}
+h1.finale{
+    font-weight: 600;
+    line-height: normal;
+    font-size: 40px;
+    color: #1D262C;
+}
+p.finish{
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 15px;
+    text-align: center;
+    color: #71828A;
+}
+.form-control.e-mail{
+    font-size: 14px;
+    color: #71828A;
+    background: white;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    opacity: 0.6;
+    border: 1px solid #71828A;
+}
+.form-control.e-mail:focus{
+    border: 0px;
+    box-shadow: none;
+    color: #1D262C;
+    border: 1px solid #71828A;
+}
+button.btn.start{
+    width: 100%;
+    height: 100%;
+    background: #0074E4;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.dashhil{
+    margin-bottom: 20px;
+    background-image: url("../img/dashill.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dashhil img{
+    visibility: hidden;
+    width: 100%;
+}
+.bg-london{
+    background: linear-gradient(to bottom, #FFFFFF 40%, #F9F9F9 20%, #fff);
+}
+#background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+    z-index: 1;
+}
+.jd-card{
+    padding: 40px 60px;
+    padding-bottom: 10px;
+    background: #FFFFFF;
+
+}
+.jd-card.active{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(113, 130, 138, 0.2);
+}
+.jd-card h3{
+    font-weight: 600;
+    line-height: normal;
+    font-size: 18px;
+    color: #1D262C;
+}
+.jd-card p{
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 14px;
+    color: #71828A;
+}
+.sec-til{
+    padding: 10%;
+}
+.sec-til h3{
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: #1D262C;
+}
+.sec-til p{
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    color: #71828A;
+}
+ul.key-dits{
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul.key-dits li{
+    background: url("../img/leaf.png") no-repeat left top;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #1D262C;
+}
+.mg-60{
+    margin: 70px;
+}
+.card-info{
+    background: white;
+    padding: 50px 0px;
+    padding-top: 85px;
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 12px;
+}
+.card-sheesh{
+    background: #ffffff21;
+    padding: 50px 0px;
+    padding-top: 85px;
+    height: 300px;
+    width: 390px;
+    position: absolute;
+    border-radius: 12px;
+    bottom: 50px;
+    left: 65px;
+    box-shadow: 0px 10px 40px rgba(113, 130, 138, 0.2);
+}
+.card-sheeshr{
+    background: #ffffff21;
+    padding: 50px 0px;
+    padding-top: 85px;
+    height: 300px;
+    width: 390px;
+    position: absolute;
+    border-radius: 12px;
+    bottom: 50px;
+    right: 65px;
+    box-shadow: 0px 10px 40px rgba(113, 130, 138, 0.2);
+}
+.card-circle{
+    z-index: -1;
+    background: linear-gradient(360deg, #FFFFFF 0%, #E6EBEE 100%);
+    border-radius: 50%;
+    height: 450px;
+    /* opacity: 0.3; */
+    width: 450px;
+
+}
+.card-info h3{
+    font-size: 60px;
+    line-height: 70px;
+}
+.card-info h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-info span{
+    color: #71828A;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.cash-group{
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    left: 0px;
+}
+
+.cash-groupr{
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    right: 0px;
+}
+
+.mt-50{
+    margin-top: 300px;
+}
+.finish-line{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.finish-line h3{
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #1D262C;
+}
+.finish-line p{
+    line-height: 26px;
+    font-size: 13px;
+    text-align: center;
+    color: #71828A;
+}
+
+.adaptive{
+    text-align: left;
+    padding: 10px 70px;
+    padding-left: 0px;
+}
+.adaptive img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.adaptive h6{
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    color: #1D262C;
+}
+.adaptive p{
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 13px;
+    color: #71828A;
+}
+.bg-gagi{
+    background: linear-gradient(180deg, #F9F9F9 0%, #FFFFFF 100%);
+    padding: 100px 40px;
+}
+.bg-raceblue{
+    background: linear-gradient(90deg, #0074E4 0%, #0774DD 100%);
+    padding:150px 40px;
+}
+.hace h3{
+    font-weight: 600;
+    line-height: normal;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.hace p{
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 13px;
+    color: #FEFEFE;
+}
+.form-control.e-vil{
+    font-size: 14px;
+    color: #fff;
+    background: white;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    opacity: 0.4;
+    /* border: 1px solid #71828A; */
+    border: none;
+}
+.form-control.e-vil:focus{
+    color: black;
+    opacity: 0.4;
+}
+button.btn.start-lead{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 14px;
+    border: none;
+    color: #0174E2;
+}
+.bluelabel{
+    padding: 40px;
+}
+
+.bluelabel h5{
+    font-weight: 800;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #232931;
+}
+.quick-links li a{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 13px;
+    color: #B4B4B4;
+}
